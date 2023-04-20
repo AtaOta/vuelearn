@@ -1,0 +1,3 @@
+<template>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1" width="24" height="24" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M29 15a1 1 0 0 0-1 1 12.052 12.052 0 1 1-3.255-8.185h-3.328a1 1 0 0 0 0 2h5.416a1.036 1.036 0 0 0 1-1V3.398a1 1 0 0 0-2 0V6.07A13.975 13.975 0 1 0 30 16a1 1 0 0 0-1-1z" data-name="1" fill="#00a974" data-original="#000000"></path></g></svg>
+</template>

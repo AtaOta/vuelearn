@@ -1,0 +1,3 @@
+<template>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1" width="24" height="24" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><g fill="#000"><path fill-rule="evenodd" d="M7 7a5 5 0 1 1 10 0A5 5 0 0 1 7 7zm5-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" clip-rule="evenodd" fill="#00a974" data-original="#000000"></path><path d="M12 15a6 6 0 0 0-6 6 1 1 0 1 1-2 0 8 8 0 0 1 8-8 1 1 0 1 1 0 2zM19.707 17.293l-2-2a1 1 0 0 0-1.414 1.414l.293.293H13a1 1 0 1 0 0 2h3.586l-.293.293a1 1 0 0 0 1.414 1.414l2-2a1 1 0 0 0 0-1.414z" fill="#00a974" data-original="#000000"></path></g></g></svg>
+</template>

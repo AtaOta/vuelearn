@@ -1,0 +1,3 @@
+<template>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1" width="24" height="24" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><g fill="#000" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm9-8a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" fill="#00a974" data-original="#000000"></path><path d="M11.5 16v-6h1v6zM11.5 9V8h1v1z" fill="#00a974" data-original="#000000"></path></g></g></svg>
+</template>
