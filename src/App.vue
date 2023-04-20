@@ -1,85 +1,63 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import IconDisplay from './views/IconDisplay.vue';
+import RouterPaths from './components/RouterPaths/RouterPaths.vue';
+import { RouterView } from 'vue-router';
+// import PiniaTutue from '@/views/PiniaTute/PiniaTutue.vue';
+// import PiniaTuteChildElm from '@/views/PiniaTute/PiniaTuteChildElm.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    <header>
+        <div class="HeaderContent">"AtaOta" App Components Tutorial</div>
+    </header>
+    <aside>
+        <RouterPaths />
+    </aside>
+    <section>
+        <RouterView />
+    </section>
 </template>
 
-<style scoped>
+<style>
 header {
-  line-height: 1.5;
-  max-height: 100vh;
+    grid-column: 4 / 18;
+    grid-row: 1 / 2;
+    background-color: #fff;
+    border: 5px solid lightgray;
+    border-bottom: 0px;
+    border-left: 0px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
+.HeaderContent{
+    width: 100%;
+    height: 100%;
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
-</style>
+
+aside {
+    grid-column: 1 / 4;
+    grid-row: 1 / 18;
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+    border: 5px solid lightgray;
+    background-color: #fff;
+    padding: 5px;
+}
+
+section {
+    grid-column: 4 / 18;
+    grid-row: 2 / 18;
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 5px solid lightgray;
+    border-left: 0px;
+    background-color: #fff;
+    padding: 5px;
+}</style>

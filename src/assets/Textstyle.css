@@ -1,0 +1,42 @@
+.LargeHeading{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.MeadiumHeading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.SmallHeading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* FONT SIZE SETUP OF THE TEXT */
+.XL_Txt{
+    font-size: 2.5rem;
+}
+.L_Txt{
+    font-size: 2rem;
+}
+.MD_Txt{
+    font-size: 1.8rem;
+}
+.M_Txt{
+    font-size: 1.4rem;
+}
+.ML_Txt{
+    font-size: 1.2rem;
+}
+.Txt_B{
+    font-weight: bold;
+}
+.Txt_Br{
+    font-weight: bolder;
+}
+/* TEXT TRANSFROM */
+.Txt_UC{
+    text-transform: uppercase;
+}
+.Txt_C{
+    text-transform: capitalize;
+}

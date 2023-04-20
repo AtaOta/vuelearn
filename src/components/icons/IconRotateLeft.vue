@@ -1,0 +1,3 @@
+<template>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1" width="24" height="24" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M30 16a14 14 0 0 1-28 0 1 1 0 0 1 2 0 12 12 0 1 0 3.08-8H11a1 1 0 0 1 0 2H5a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v3.2A14 14 0 0 1 30 16z" data-name="Layer 25" fill="#00a974" data-original="#000000"></path></g></svg>
+</template>
